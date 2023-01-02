@@ -1,0 +1,279 @@
+{
+  "data": {
+    "posts": {
+      "data": [
+        {
+          "id": "1",
+          "attributes": {
+            "title": "How to Upgrade to React 18",
+            "slug": "how-to-upgrade-to-react-18",
+            "excerpt": "As we shared in the release post, React 18 introduces features powered by our new concurrent renderer, with a gradual adoption strategy for existing applications. In this post, we will guide you through the steps for upgrading to React 18.",
+            "allowComments": true,
+            "content": "<h2 style=\"margin-left:0px;\">Installing</h2><p style=\"margin-left:0px;\">To install the latest version of React:</p><p><br><code>npm install react react-dom</code></p><p style=\"margin-left:0px;\">Or if you’re using yarn:\\</p><p style=\"margin-left:0px;\"><code>yarn add react react-dom</code></p><p style=\"margin-left:0px;\">&nbsp;</p><h2 style=\"margin-left:0px;\">Updates to Client Rendering APIs</h2><p>&nbsp;</p><p><span style=\"color:rgb(0,0,0);font-family:-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;font-size:17px;\">React 18 introduces a new root API which provides better ergonomics for managing roots. The new root API also enables the new concurrent renderer, which allows you to opt-into concurrent features.</span></p><p><br><code>// Before</code><br><code>import { render } from 'react-dom';</code><br><code>const container = document.getElementById('app');</code><br><code>render(&lt;App tab=\"home\" /&gt;, container);</code><br><br><code>// After</code><br><code>import { createRoot } from 'react-dom/client';</code><br><code>const container = document.getElementById('app');</code><br><code>const root = createRoot(container); // createRoot(container!) if you use TypeScript</code><br><code>root.render(&lt;App tab=\"home\" /&gt;);</code></p><h2 style=\"margin-left:0px;\">Updates to Server Rendering APIs</h2><p style=\"margin-left:0px;\">In this release, we’re revamping our <code>react-dom/server</code> APIs to fully support Suspense on the server and Streaming SSR. As part of these changes, we’re deprecating the old Node streaming API, which does not support incremental Suspense streaming on the server.</p><p style=\"margin-left:0px;\">Using this API will now warn:</p><ul><li><code>renderToNodeStream</code>: <strong>Deprecated ⛔️️</strong></li></ul><p style=\"margin-left:0px;\">Instead, for streaming in Node environments, use:</p><ul><li><code>renderToPipeableStream</code>: <strong>New ✨</strong></li></ul><p style=\"margin-left:0px;\">We’re also introducing a new API to support streaming SSR with Suspense for modern edge runtime environments, such as Deno and Cloudflare workers:</p><ul><li><code>renderToReadableStream</code>: <strong>New ✨</strong></li></ul><p style=\"margin-left:0px;\">The following APIs will continue working, but with limited support for Suspense:</p><ul><li><code>renderToString</code>: <strong>Limited</strong> ⚠️</li><li><code>renderToStaticMarkup</code>: <strong>Limited</strong> ⚠️</li></ul><p style=\"margin-left:0px;\">Finally, this API will continue to work for rendering e-mails:</p><ul><li><code>renderToStaticNodeStream</code></li></ul><p style=\"margin-left:0px;\">For more information on the changes to server rendering APIs, see the working group post on <a href=\"https://github.com/reactwg/react-18/discussions/22\">Upgrading to React 18 on the server</a>, a <a href=\"https://github.com/reactwg/react-18/discussions/37\">deep dive on the new Suspense SSR Architecture</a>, and <a href=\"https://twitter.com/shaundai\">Shaundai Person’s</a> talk on <a href=\"https://www.youtube.com/watch?v=pj5N-Khihgc\">Streaming Server Rendering with Suspense</a> at React Conf 2021.</p>",
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Samuel Carvalho",
+                  "slug": "samuel-carvalho"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "2",
+                "attributes": {
+                  "name": "reactpainel-pt-b3a6c77ab59eea5986c6d97c3894cef9.png",
+                  "alternativeText": "react conference 2022",
+                  "url": "https://res.cloudinary.com/dw08nx3ad/image/upload/v1672665280/reactpainel_pt_b3a6c77ab59eea5986c6d97c3894cef9_762585bf7b.png"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "ReactDom",
+                    "slug": "react-dom"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "2",
+          "attributes": {
+            "title": "Python para quem está começando",
+            "slug": "python-para-quem-esta-comecando",
+            "excerpt": "Python é uma linguagem de programação de alto nível e de uso geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo.",
+            "allowComments": true,
+            "content": "<p>Python é uma linguagem poderosa e divertida. Com ela você pode fazer diversas coisas como:</p><ul><li>Construção de sistemas Web com Django, Flask, Pyramid, etc.</li><li>Análise de dados, Inteligência Artificial, Machine Learning e etc com Numpy, Pandas, Matplotlib, etc</li><li>Construção de aplicativos com Kivy e Pybee</li><li>Construção de sistemas desktop com Tkinter, WxPython, etc.</li></ul><p>Existem diversos cursos onlines onde você pode encontrar material. São cursos que você consegue aprender o básico da programação com Python como tipos de variáveis, como escrever funções, etc.</p><p><strong>Devo usar o Interpretador do Python puro?</strong> Depende da sua preferência. Ele é uma ferramenta poderosa. Mas boa parte de profissionais usa o interpretador <a href=\"http://ipython.org/\"><i><strong>ipython</strong></i></a> pois este contém mais recursos visuais e de auxílio (como colorir as mensagens de erro).</p><p><strong>Que IDE usar?</strong> Depende muito da sua preferência. Você pode usar qualquer editor de texto padrão, como o <a href=\"https://notepad-plus-plus.org/\"><strong>Notepad++</strong></a>, Gedit ou <a href=\"http://sublimetext.com/\"><strong>Sublime</strong></a> até o VI puro. Não existe padrão. Para quem vem do MATLAB ou R, o <a href=\"https://github.com/spyder-ide/spyder\"><strong>Spyder</strong></a> pode ser muito útil. O <a href=\"https://www.jetbrains.com/pycharm/\"><strong>Pycharm</strong></a> é outro IDE muito utilizado na comunidade.</p><p><strong>Aonde eu encontro os módulos para utilizar no meu projeto?</strong> Alguns módulos já vem por padrão no Python puro, por exemplo o módulo matemático. Outros, devem ser baixados de um repositório, como é o caso do Django ou Numpy. Hoje, mais de 107 mil projetos estão cadastros no <a href=\"https://pypi.org/\"><strong>repositório oficial</strong></a>. Caso você não ache o que procura, há muito incentivo para que você construa um módulo novo e inclua no repositório!</p><p>Se você não tem a menor ideia mesmo de que módulo você precise, dê uma procurada no Google e StackOverflow. De certo alguém já fez algo parecido com o que você precisa!</p><p><strong>O que são VirtualEnvs?</strong> O ideal para projetos Python é que você isole as bibliotecas que você usa, para evitar conflitos entre projetos. Isso é uma boa prática e pode evitar dores de cabeça futuras. <a href=\"https://virtualenv.pypa.io/en/stable/\"><strong>Dê uma lida</strong></a> sobre antes de iniciar um projeto grande, ok?</p><p><strong>Indicação de cursos</strong></p><p>Não sabe por onde começar? Veja nossa listagem de conteúdo para quem está começando na linguagem:</p><figure class=\"table\" style=\"width:710px;\"><table><thead><tr><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Ano</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Título</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Autor</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Tipo</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Nível</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Grátis?</th><th style=\"border-bottom:2px solid rgb(222, 226, 230);border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:bottom;\">Link</th></tr></thead><tbody><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2021</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso para acesso ao mercado Python de Tecnologia</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Renzo Nuccitelli</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Intermediario</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Não</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"https://www.python.pro.br/\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2019</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Introdução à Programação com Python</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Nilo Ney Coutinho Menezes</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Livro</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Não</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"http://python.nilo.pro.br/\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2017</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Introdução à Ciência da Computação com Python</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">CCSL do IME/USP</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Sim</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"https://www.youtube.com/playlist?list=PLcoJJSvnDgcKpOi_UeneTNTIVOigRQwcn\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2017</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Pycubator (Tradução PT-BR)</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Noam Elfanbaum, Udi Oron e Gilson Filho (Tradução)</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Material online</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Sim</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"http://df.python.org.br/pycubator/\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2016</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Python Básico</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Solyd/Guilherme Junqueira</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Sim</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"https://solyd.com.br/treinamentos/python-basico\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2015</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso de Programação em Python para Iniciantes</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">PyLadies BH</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Sim</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"https://www.youtube.com/watch?v=O2xKiMl-d7Y&amp;list=PL70CUfm2J_8SXFHovpVUbq8lB2JSuUXgk\"><strong>link</strong></a></td></tr><tr><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">2003</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Python para Zumbis</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Fernando Massanori</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Curso</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Iniciante</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\">Sim</td><td style=\"border-top:1px solid rgb(222, 226, 230);padding:0.75rem;vertical-align:top;\"><a href=\"http://pycursos.com/python-para-zumbis/\"><strong>link</strong></a></td></tr></tbody></table></figure>",
+            "author": {
+              "data": {
+                "id": "3",
+                "attributes": {
+                  "displayName": "José Santos",
+                  "slug": "jose-santos"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "Python",
+                    "slug": "python"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "3",
+                "attributes": {
+                  "name": "python.svg",
+                  "alternativeText": "python logo",
+                  "url": "https://res.cloudinary.com/dw08nx3ad/image/upload/v1672665615/python_dd054a80ee.svg"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "4",
+                  "attributes": {
+                    "displayName": "Beginners",
+                    "slug": "beginners"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "3",
+          "attributes": {
+            "title": "25 anos de JavaScript",
+            "slug": "25-anos-de-java-script",
+            "excerpt": "JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.",
+            "allowComments": true,
+            "content": "<p><strong>JavaScript®</strong><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\"> (às vezes abreviado para </span><strong>JS</strong><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\">) é uma linguagem leve, interpretada e baseada em objetos com </span><a href=\"http://en.wikipedia.org/wiki/First-class_function\"><i><u>funções de primeira classe</u></i></a><i>,</i><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\"> mais conhecida como a linguagem de script para páginas Web, mas usada também em </span><a href=\"http://en.wikipedia.org/wiki/JavaScript#Uses_outside_web_pages\"><u>vários outros ambientes sem browser</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\">, tais como </span><a href=\"https://nodejs.org/\"><u>node.js</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\">, </span><a href=\"https://couchdb.apache.org/\"><u>Apache CouchDB</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\"> e Adobe Acrobat. O JavaScript é uma linguagem </span><a href=\"https://en.wikipedia.org/wiki/Prototype-based\"><u>baseada em protótipos</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\">, </span><a href=\"https://en.wikipedia.org/wiki/Programming_paradigm\"><u>multi-paradigma</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\"> e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais </span><a href=\"https://developer.mozilla.org/pt-BR/docs/conflicting/Web/JavaScript\"><u>sobre o JavaScript</u></a><span style=\"background-color:rgb(27,27,27);color:rgb(255,255,255);font-family:Inter, system-ui, &quot;Segoe UI&quot;, Roboto, Oxygen, Ubuntu, Cantarell, &quot;Fira Sans&quot;, &quot;Droid Sans&quot;, &quot;Helvetica Neue&quot;, sans-serif;\">.</span></p><p style=\"margin-left:0px;\">O padrão JavaScript é <a href=\"https://developer.mozilla.org/pt-BR/docs/JavaScript/Language_Resources\"><u>ECMAScript</u></a>. Desde 2012, todos os <a href=\"http://kangax.github.io/compat-table/es5/\"><u>navegadores modernos</u></a> possuem suporte total ao ECMAScript 5.1. Navegadores mais antigos suportam pelo menos ECMAScript 3. Em 17 de Junho de 2015, a <a href=\"https://www.ecma-international.org/\"><u>ECMA International</u></a> publicou a sexta versão do ECMAScript, que é oficialmente chamado de ECMAScript 2015, e foi inicialmente conhecido como ECMAScript 6 ou ES6. Desde então, as especificações do ECMAScript são lançadas anualmente. Essa documentação faz referência à última versão de referência, que atualmente é a <a href=\"https://tc39.github.io/ecma262/\"><u>ECMAScript 2018</u></a>.</p><p style=\"margin-left:0px;\">Não se deve confundir o JavaScript com a <a href=\"https://en.wikipedia.org/wiki/Java_(programming_language)\"><u>linguagem de programação Java</u></a>. Tanto <i>Java</i> quanto <i>JavaScript</i> são marcas registradas da Oracle nos Estados Unidos da América e em outros países. No entanto, as duas linguagens de programação possuem sintaxe, semânticas e usos muito diferentes.</p>",
+            "author": {
+              "data": {
+                "id": "2",
+                "attributes": {
+                  "displayName": "João Silva",
+                  "slug": "joao-silva"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "2",
+                  "attributes": {
+                    "displayName": "JavaScript",
+                    "slug": "javascript"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "4",
+                "attributes": {
+                  "name": "javascript.png",
+                  "alternativeText": "javascript logo",
+                  "url": "https://res.cloudinary.com/dw08nx3ad/image/upload/v1672666419/javascript_2927f64d3a.png"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "7",
+                  "attributes": {
+                    "displayName": "www",
+                    "slug": "www"
+                  }
+                },
+                {
+                  "id": "6",
+                  "attributes": {
+                    "displayName": "javascript",
+                    "slug": "javascript"
+                  }
+                },
+                {
+                  "id": "5",
+                  "attributes": {
+                    "displayName": "js",
+                    "slug": "js"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "id": "4",
+          "attributes": {
+            "title": "Tutorial do React: uma visão geral e passo a passo",
+            "slug": "tutorial-do-react-uma-visao-geral-e-passo-a-passo",
+            "excerpt": "Tenho ouvido falar sobre React desde que comecei a aprender JavaScript, mas admito que dei uma olhada e me assustei. Qual é o problema com o React?",
+            "allowComments": true,
+            "content": "<h4><strong>PRÉ-REQUISITOS</strong></h4><p>Há algumas coisas que você deve saber com antecedência antes de começar a brincar com o React. Se você nunca usou JavaScript ou DOM antes, por exemplo, eu ficaria mais familiarizado com eles antes de tentar lidar com o React.</p><p>Aqui estão o que considero pré-requisitos do React.</p><ul><li>Familiaridade básica com <a href=\"https://translate.google.com/website?sl=en&amp;tl=pt&amp;hl=pt-BR&amp;client=webapp&amp;u=https://internetingishard.com/\">HTML e CSS</a> .</li><li>Conhecimento básico de <a href=\"https://translate.google.com/website?sl=en&amp;tl=pt&amp;hl=pt-BR&amp;client=webapp&amp;u=https://www.digitalocean.com/community/tutorial_series/how-to-code-in-javascript\">JavaScript</a> e programação.</li><li>Compreensão básica do <a href=\"https://www-taniarascia-com.translate.goog/introduction-to-the-dom/?_x_tr_sl=en&amp;_x_tr_tl=pt&amp;_x_tr_hl=pt-BR&amp;_x_tr_pto=wapp\">DOM</a> .</li><li>Familiaridade com a <a href=\"https://www-taniarascia-com.translate.goog/es6-syntax-and-feature-overview/?_x_tr_sl=en&amp;_x_tr_tl=pt&amp;_x_tr_hl=pt-BR&amp;_x_tr_pto=wapp\">sintaxe e recursos do ES6</a> .</li><li><a href=\"https://www-taniarascia-com.translate.goog/how-to-install-and-use-node-js-and-npm-mac-and-windows/?_x_tr_sl=en&amp;_x_tr_tl=pt&amp;_x_tr_hl=pt-BR&amp;_x_tr_pto=wapp\">Node.js e npm</a> instalados globalmente.</li></ul><h2 style=\"margin-left:0px;\"><strong>O que é Reagir?</strong></h2><ul><li>React é uma biblioteca JavaScript - uma das mais populares, com <a href=\"https://translate.google.com/website?sl=en&amp;tl=pt&amp;hl=pt-BR&amp;client=webapp&amp;u=https://github.com/facebook/react\">mais de 100.000 estrelas no GitHub</a> .</li><li>O React não é um framework (ao contrário do Angular, que é mais opinativo).</li><li>React é um projeto de código aberto criado pelo Facebook.</li><li>React é usado para construir interfaces de usuário (UI) no front-end.</li><li>React é a camada de <strong>visualização</strong> de um aplicativo MVC (Model View Controller)</li></ul><p>Um dos aspectos mais importantes do React é o fato de que você pode criar <strong>componentes</strong> , que são como elementos HTML personalizados e reutilizáveis, para construir interfaces de usuário de forma rápida e eficiente. O React também simplifica como os dados são armazenados e manipulados, usando <strong>state</strong> e <strong>props</strong> .</p><p>Analisaremos tudo isso e muito mais ao longo do artigo, então vamos começar.</p><h2 style=\"margin-left:0px;\"><br><strong>Configuração e instalação</strong></h2><p>Existem algumas maneiras de configurar o React, e mostrarei duas para que você tenha uma boa ideia de como funciona.<br>&nbsp;</p><h1>Arquivo HTML Estático</h1><p>Este primeiro método não é uma maneira popular de configurar o React e não é como faremos o resto do nosso tutorial, mas será familiar e fácil de entender se você já usou uma biblioteca como jQuery, e é o maneira menos assustadora de começar se você não estiver familiarizado com Webpack, Babel e Node.js.</p><p>Vamos começar criando um <code>index.html</code>arquivo básico. Vamos carregar três CDNs no <code>head</code>- React, React DOM e Babel. Também vamos fazer um <code>div</code>com um id chamado <code>root</code>, e por fim criaremos uma <code>script</code>tag onde seu código customizado ficará.<br>&nbsp;</p><pre><code class=\"language-html\">&lt;!DOCTYPE html&gt;\n&lt;html&gt;\n  &lt;head&gt;\n    &lt;meta charset=\"utf-8\" /&gt;\n\n    &lt;title&gt;Hello React!&lt;/title&gt;\n\n    &lt;script src=\"https://unpkg.com/react@^16/umd/react.production.min.js\"&gt;&lt;/script&gt;\n    &lt;script src=\"https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js\"&gt;&lt;/script&gt;\n    &lt;script src=\"https://unpkg.com/babel-standalone@6.26.0/babel.js\"&gt;&lt;/script&gt;\n  &lt;/head&gt;\n\n  &lt;body&gt;\n    &lt;div id=\"root\"&gt;&lt;/div&gt;\n\n    &lt;script type=\"text/babel\"&gt;\n      // React code will go here\n    &lt;/script&gt;\n  &lt;/body&gt;\n&lt;/html&gt;</code></pre><p>Agora, vamos escrever nosso primeiro bloco de código do React. Vamos usar classes ES6 para criar um componente React chamado <code>App</code>.</p><pre><code class=\"language-plaintext\">class App extends React.Component {\n  //...\n}</code></pre><p>Agora adicionaremos o <a href=\"https://translate.google.com/website?sl=en&amp;tl=pt&amp;hl=pt-BR&amp;client=webapp&amp;u=https://reactjs.org/docs/react-component.html%23render\"><code>render()</code></a>método, o único método necessário em um componente de classe, que é usado para renderizar nós DOM.</p><pre><code class=\"language-plaintext\">class App extends React.Component {\n  render() {\n      return (\n          //...\n      );\n  }\n}</code></pre><p>Dentro do <code>return</code>, vamos colocar o que parece ser um simples elemento HTML. Observe que não estamos retornando uma string aqui, então não use aspas ao redor do elemento. Isso se chama <code>JSX</code>, e aprenderemos mais sobre isso em breve.</p><pre><code class=\"language-plaintext\">class App extends React.Component {\n  render() {\n    return &lt;h1&gt;Hello world!&lt;/h1&gt;\n  }\n}</code></pre><p>Por fim, vamos usar o <code>render()</code>método React DOM para renderizar a <code>App</code>classe que criamos no <code>root</code>div em nosso HTML.</p><pre><code class=\"language-plaintext\">ReactDOM.render(&lt;App /&gt;, document.getElementById('root'))</code></pre><p><br><code>&lt;!DOCTYPE html&gt;</code><br><code>&lt;html&gt;</code><br><code>&nbsp; &lt;head&gt;</code><br><code>&nbsp; &nbsp; &lt;meta charset=\"utf-8\" /&gt;</code><br><br><code>&nbsp; &nbsp; &lt;title&gt;Hello React!&lt;/title&gt;</code><br><br><code>&nbsp; &nbsp; &lt;script src=\"https://unpkg.com/react@16/umd/react.development.js\"&gt;&lt;/script&gt;</code><br><code>&nbsp; &nbsp; &lt;script src=\"https://unpkg.com/react-dom@16/umd/react-dom.development.js\"&gt;&lt;/script&gt;</code><br><code>&nbsp; &nbsp; &lt;script src=\"https://unpkg.com/babel-standalone@6.26.0/babel.js\"&gt;&lt;/script&gt;</code><br><code>&nbsp; &lt;/head&gt;</code><br><br><code>&nbsp; &lt;body&gt;</code><br><code>&nbsp; &nbsp; &lt;div id=\"root\"&gt;&lt;/div&gt;</code><br><br><code>&nbsp; &nbsp; &lt;script type=\"text/babel\"&gt;</code><br><code>&nbsp; &nbsp; &nbsp; class App extends React.Component {</code><br><code>&nbsp; &nbsp; &nbsp; &nbsp; render() {</code><br><code>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; return &lt;h1&gt;Hello world!&lt;/h1&gt;</code><br><code>&nbsp; &nbsp; &nbsp; &nbsp; }</code><br><code>&nbsp; &nbsp; &nbsp; }</code><br><br><code>&nbsp; &nbsp; &nbsp; ReactDOM.render(&lt;App /&gt;, document.getElementById('root'))</code><br><code>&nbsp; &nbsp; &lt;/script&gt;</code><br><code>&nbsp; &lt;/body&gt;</code><br><code>&lt;/html&gt;</code><br>&nbsp;</p><p>Agora, se você visualizar seu <code>index.html</code>no navegador, verá a <code>h1</code>tag que criamos renderizada no DOM.</p><p><img src=\"https://res.cloudinary.com/dw08nx3ad/image/upload/v1672667148/hello_world_497b8abb35.png\" alt=\"hello world\" srcset=\"https://res.cloudinary.com/dw08nx3ad/image/upload/v1672667148/thumbnail_hello_world_497b8abb35.png 245w,https://res.cloudinary.com/dw08nx3ad/image/upload/v1672667148/small_hello_world_497b8abb35.png 500w,https://res.cloudinary.com/dw08nx3ad/image/upload/v1672667149/medium_hello_world_497b8abb35.png 750w,https://res.cloudinary.com/dw08nx3ad/image/upload/v1672667149/large_hello_world_497b8abb35.png 1000w,\" sizes=\"100vw\"></p>",
+            "author": {
+              "data": {
+                "id": "1",
+                "attributes": {
+                  "displayName": "Samuel Carvalho",
+                  "slug": "samuel-carvalho"
+                }
+              }
+            },
+            "categories": {
+              "data": [
+                {
+                  "id": "1",
+                  "attributes": {
+                    "displayName": "React",
+                    "slug": "react"
+                  }
+                }
+              ]
+            },
+            "cover": {
+              "data": {
+                "id": "5",
+                "attributes": {
+                  "name": "react.png",
+                  "alternativeText": "react logo",
+                  "url": "https://res.cloudinary.com/dw08nx3ad/image/upload/v1672666787/react_6b62155729.png"
+                }
+              }
+            },
+            "tags": {
+              "data": [
+                {
+                  "id": "3",
+                  "attributes": {
+                    "displayName": "ReactDom",
+                    "slug": "react-dom"
+                  }
+                },
+                {
+                  "id": "4",
+                  "attributes": {
+                    "displayName": "Beginners",
+                    "slug": "beginners"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "setting": {
+      "data": {
+        "id": "1",
+        "attributes": {
+          "blogName": "Samuel Carvalho",
+          "blogDescription": "A descrição do blog",
+          "footer": "<blockquote><h2 style=\"text-align:center;\">Desenvolvido por Samuel Carvalho&nbsp;</h2></blockquote>",
+          "logo": {
+            "data": {
+              "id": "1",
+              "attributes": {
+                "name": "kisspng-logo-phoenix-art-5afffc96c60439.6819225615267257828111.png",
+                "alternativeText": "logo blog",
+                "url": "https://res.cloudinary.com/dw08nx3ad/image/upload/v1672354764/kisspng_logo_phoenix_art_5afffc96c60439_6819225615267257828111_ec42539444.png"
+              }
+            }
+          },
+          "menu": [
+            {
+              "id": "1",
+              "link": "#categories",
+              "text": "Categorias",
+              "newTab": false
+            },
+            {
+              "id": "2",
+              "link": "#authors",
+              "text": "Autores",
+              "newTab": false
+            },
+            {
+              "id": "3",
+              "link": "#tags",
+              "text": "Tags",
+              "newTab": false
+            },
+            {
+              "id": "4",
+              "link": "#contato",
+              "text": "Contato",
+              "newTab": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}
