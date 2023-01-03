@@ -1,6 +1,6 @@
 import React from 'react';
 import * as Styled from './styles';
-import { TextComponent } from '../TextComponent';
+import { HtmlContent } from '../HtmlContent';
 
 export type FooterPrpos = {
   footerHtml: string;
@@ -9,7 +9,7 @@ export type FooterPrpos = {
 export const Footer = ({ footerHtml }: FooterPrpos) => {
   return (
     <Styled.Container>
-      <TextComponent>{footerHtml}</TextComponent>
+      <HtmlContent html={footerHtml} />
     </Styled.Container>
   );
 };
