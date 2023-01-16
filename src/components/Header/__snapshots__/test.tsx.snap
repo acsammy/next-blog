@@ -1,0 +1,108 @@
+// Vitest Snapshot v1
+
+exports[`<Header /> > should match snapshot 1`] = `
+.c2 {
+  color: #000;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c5 {
+  color: #000;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c3 > img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 6.4rem;
+  width: 100%;
+  max-width: 96rem;
+  color: #333;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.c0 .c1 {
+  margin: 0 0 calc(1.6rem - 1rem);
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin-left: 3.2rem;
+  max-width: 48rem;
+}
+
+<div>
+  <header
+    class="c0"
+  >
+    <h1
+      class="c1 c2"
+    >
+      <a
+        href="/"
+      >
+        <a
+          class="c3"
+          target="_self"
+        >
+          <img
+            alt="Samuel Carvalho - Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam architecto omnis ad, veniam reprehenderit a cum delectus iusto, ipsum in deleniti quibusdam corporis dicta illum, debitis cupiditate! Molestiae, minus esse!"
+            src="assets/images/samuel.png"
+          />
+        </a>
+      </a>
+    </h1>
+    <div
+      class="c4"
+    >
+      <h2
+        class="c1 c5"
+      >
+        Samuel Carvalho
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam architecto omnis ad, veniam reprehenderit a cum delectus iusto, ipsum in deleniti quibusdam corporis dicta illum, debitis cupiditate! Molestiae, minus esse!
+      </p>
+    </div>
+  </header>
+</div>
+`;
