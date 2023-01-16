@@ -39,3 +39,7 @@ coverage
 package-lock.json
 yarn-lock.json
 yarn.lock
+
+
+# Vitest não sei pq ta criando
+src/node_modules/**
