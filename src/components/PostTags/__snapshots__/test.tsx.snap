@@ -1,0 +1,58 @@
+// Vitest Snapshot v1
+
+exports[`<PostTags /> > should match snapshot 1`] = `
+.c0 {
+  margin: 2.4rem 0;
+}
+
+.c0 span {
+  margin: 0 0.5rem 0 1rem;
+}
+
+.c0 span::before {
+  content: ' ';
+}
+
+.c0 span::after {
+  content: ', ';
+}
+
+.c0 span:last-child::after {
+  content: '';
+}
+
+.c0 a {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c0 a::hover {
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+}
+
+<div>
+  <p
+    class="c0"
+  >
+    Tags: 
+      
+    <span>
+      <a
+        href="/tag/react-dom"
+      >
+        ReactDom
+      </a>
+    </span>
+    <span>
+      <a
+        href="/tag/beginners"
+      >
+        Beginners
+      </a>
+    </span>
+  </p>
+</div>
+`;
+
+exports[`<PostTags /> > should match snapshot without tags 1`] = `<div />`;
