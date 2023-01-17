@@ -33,4 +33,12 @@ describe('<ArticleMeta />', () => {
 
     expect(container).toMatchSnapshot();
   });
+
+  it('should match snapshot', () => {
+    const { container } = renderTheme(
+      <ArticleMeta {...props} author={undefined} categories={undefined} />,
+    );
+
+    expect(container).toMatchSnapshot();
+  });
 });
