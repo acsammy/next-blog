@@ -18,8 +18,9 @@ export default defineConfig({
     setupFiles: ['../.test/setup.js'],
     include: ['**/*(*.)?{test,spec}.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
     exclude: ['node_modules', 'dist', '.idea', '.git', '.cache', 'templates'],
-    // coverage: {
-    //   reporter: ['clover', 'json', 'lcov'],
-    // },
+    coverage: {
+      reportsDirectory: '../coverage',
+      reporter: ['clover', 'json', 'lcov'],
+    },
   },
 });
