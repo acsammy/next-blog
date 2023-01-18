@@ -1,5 +1,12 @@
-import Home from 'templates/Home';
+import { BaseTemplate } from 'templates/Base';
+import mock from 'templates/Base/mock';
 
 export default function Index() {
-  return <Home />;
+  return (
+    <>
+      <BaseTemplate key={`${mock.settings}`} settings={mock.settings}>
+        {mock.children}
+      </BaseTemplate>
+    </>
+  );
 }
