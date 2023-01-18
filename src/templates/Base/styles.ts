@@ -7,6 +7,7 @@ export const HeaderContainer = styled.header`
   ${({ theme }) => css`
     margin-top: ${theme.spacings.xhuge};
     background: ${theme.colors.white};
+    padding: 0 ${theme.spacings.large};
   `}
 `;
 
