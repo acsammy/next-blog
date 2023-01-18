@@ -1,0 +1,1443 @@
+// Vitest Snapshot v1
+
+exports[`<PostsTemplate /> > should match snapshot 1`] = `
+.c6 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c12 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c17 .c5 {
+  margin: 0;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.c17 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c17 a:hover {
+  color: #dc143c;
+}
+
+.c17:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c18 {
+  max-width: 100%;
+  -webkit-transition: opacity 300ms ease-in-out;
+  transition: opacity 300ms ease-in-out;
+}
+
+.c18:hover {
+  opacity: 0.8;
+}
+
+.c14 {
+  width: 100%;
+}
+
+.c15 {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
+.c15 .c16 {
+  box-shadow: 2px 1px 5px #333;
+  padding: 1.6rem;
+}
+
+.c20 {
+  text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
+}
+
+.c20 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c21 {
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c21 p {
+  margin: 2.4rem 0;
+}
+
+.c21 a,
+.c21 a:visited,
+.c21 a:link {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c21 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c21 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c21 pre {
+  background: #000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 2.4rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c21 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c21 img {
+  max-width: 100%;
+}
+
+.c21 .image {
+  background: #DDDDDD;
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c21 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.c21 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem 0;
+}
+
+.c21 hr {
+  border: none;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c21 ul,
+.c21 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c21 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c21 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c21 table td,
+.c21 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c21 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c22 {
+  position: fixed;
+  background: #000;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 6;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c7 > img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 6.4rem;
+  width: 100%;
+  max-width: 96rem;
+  color: #333;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.c10 .c5 {
+  margin: 0 0 calc(1.6rem - 1rem);
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin-left: 3.2rem;
+  max-width: 48rem;
+}
+
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
+.c2 {
+  background: #000;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 32rem;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  overflow-y: auto;
+  left: -30rem;
+  overflow-y: hidden;
+}
+
+.c3 {
+  margin: auto;
+  width: 100%;
+}
+
+.c4 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 4.0rem;
+}
+
+.c4 .c5 img {
+  border: 0.5rem solid #dc143c;
+}
+
+.c0 {
+  position: fixed;
+  top: 2.4rem;
+  color: #FFFFFF;
+  background: #000;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  left: 26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: 1rem;
+  color: #FFFFFF;
+}
+
+.c9 {
+  margin-top: 6.4rem;
+  background: #FFFFFF;
+}
+
+.c13 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.c19 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+@media (max-width:360px) {
+  .c15 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c21 {
+    font-size: 2rem;
+  }
+
+  .c21 .image-style-side {
+    max-width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    left: -32rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: -.5rem;
+  }
+}
+
+<div>
+  <div
+    class=""
+  >
+    <a
+      aria-label="Open or close menu"
+      class="c0"
+      href="#"
+      title="Open or close menu"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Open menu"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </a>
+    <div
+      aria-hidden="true"
+      class="c2"
+    >
+      <nav
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <h1
+            class="c5 c6"
+          >
+            <a
+              href="/"
+            >
+              <a
+                class="c7"
+                target="_self"
+              >
+                <img
+                  alt="Samuel Carvalho"
+                  src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672354764/kisspng_logo_phoenix_art_5afffc96c60439_6819225615267257828111_ec42539444.png"
+                />
+              </a>
+            </a>
+          </h1>
+        </div>
+        <a
+          href="/home/1"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            My Jobs
+          </a>
+        </a>
+        <a
+          href="/home/2"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            About Me
+          </a>
+        </a>
+        <a
+          href="/home/3"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Services
+          </a>
+        </a>
+        <a
+          href="/home/4"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            External Link
+          </a>
+        </a>
+        <a
+          href="/home/5"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            JavaScript
+          </a>
+        </a>
+        <a
+          href="/home/6"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Ruby
+          </a>
+        </a>
+        <a
+          href="/home/7"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            .Net
+          </a>
+        </a>
+        <a
+          href="/home/8"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Assassins Creed
+          </a>
+        </a>
+        <a
+          href="/home/9"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Ark: Survival Evovlved
+          </a>
+        </a>
+        <a
+          href="/home/10"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Code
+          </a>
+        </a>
+      </nav>
+    </div>
+    <header
+      class="c9"
+    >
+      <header
+        class="c10"
+      >
+        <h1
+          class="c5 c6"
+        >
+          <a
+            href="/"
+          >
+            <a
+              class="c7"
+              target="_self"
+            >
+              <img
+                alt="Samuel Carvalho - A descrição do blog"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672354764/kisspng_logo_phoenix_art_5afffc96c60439_6819225615267257828111_ec42539444.png"
+              />
+            </a>
+          </a>
+        </h1>
+        <div
+          class="c11"
+        >
+          <h2
+            class="c5 c12"
+          >
+            Samuel Carvalho
+          </h2>
+          <p>
+            A descrição do blog
+          </p>
+        </div>
+      </header>
+    </header>
+    <div
+      class="c13"
+    >
+      <div
+        class="c14"
+      >
+        <div
+          class="c15"
+        >
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/how-to-upgrade-to-react-18"
+            >
+              <img
+                alt="How to Upgrade to React 18"
+                class="c18"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672665280/reactpainel_pt_b3a6c77ab59eea5986c6d97c3894cef9_762585bf7b.png"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/how-to-upgrade-to-react-18"
+              >
+                How to Upgrade to React 18
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              As we shared in the release post, React 18 introduces features powered by our new concurrent renderer, with a gradual adoption strategy for existing applications. In this post, we will guide you through the steps for upgrading to React 18.
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/python-para-quem-esta-comecando"
+            >
+              <img
+                alt="Python para quem está começando"
+                class="c18"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672665615/python_dd054a80ee.svg"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/python-para-quem-esta-comecando"
+              >
+                Python para quem está começando
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              Python é uma linguagem de programação de alto nível e de uso geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo.
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/25-anos-de-java-script"
+            >
+              <img
+                alt="25 anos de JavaScript"
+                class="c18"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672666419/"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/25-anos-de-java-script"
+              >
+                25 anos de JavaScript
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/tutorial-do-react-uma-visao-geral-e-passo-a-passo"
+            >
+              <img
+                alt="Tutorial do React: uma visão geral e passo a passo"
+                class="c18"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672666787/react_6b62155729.png"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/tutorial-do-react-uma-visao-geral-e-passo-a-passo"
+              >
+                Tutorial do React: uma visão geral e passo a passo
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              Tenho ouvido falar sobre React desde que comecei a aprender JavaScript, mas admito que dei uma olhada e me assustei. Qual é o problema com o React?
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+            >
+              <img
+                alt="Vis nobis veritus maluisset id, nonumy adversarium"
+                class="c18"
+                src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614698965/Ubuntu_gel_by_Midge_Mantissa_Sinnaeve_7caea7ddb4.jpg"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/vis-nobis-veritus-maluisset-id-nonumy-adversarium"
+              >
+                Vis nobis veritus maluisset id, nonumy adversarium
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+            >
+              <img
+                alt="Sea Array Destructuring dicat fabulas consetetur "
+                class="c18"
+                src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/sea-array-destructuring-dicat-fabulas-consetetur"
+              >
+                Sea Array Destructuring dicat fabulas consetetur 
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.
+            </p>
+          </div>
+          <div
+            class="c16 c17"
+          >
+            <a
+              href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+            >
+              <img
+                alt="Quod oblique mei ne, cetero delicatissimi sea"
+                class="c18"
+                src="https://res.cloudinary.com/dlizakp2a/image/upload/v1614699042/Origin_of_nature_by_Julian_Tomasini_dcfdd17cbe.jpg"
+              />
+            </a>
+            <h3
+              class="c5 c12"
+            >
+              <a
+                href="/post/quod-oblique-mei-ne-cetero-delicatissimi-sea"
+              >
+                Quod oblique mei ne, cetero delicatissimi sea
+              </a>
+            </h3>
+            <p
+              class=""
+            >
+              Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="c19"
+    >
+      <footer
+        class="c20"
+      >
+        <div
+          class="c21"
+        >
+          <p>
+            Desenvolvido por Samuel Carvalho
+          </p>
+        </div>
+      </footer>
+    </footer>
+    <a
+      aria-label="Go to top"
+      class="c22"
+      href="#"
+      title="Go to top"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`<PostsTemplate /> > should match snapshot without posts 1`] = `
+.c6 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
+.c12 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: none;
+}
+
+.c14 {
+  width: 100%;
+}
+
+.c15 {
+  padding: 3.2rem;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.c16 {
+  max-width: 120rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(28rem,1fr));
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
+.c18 {
+  text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
+}
+
+.c18 a {
+  color: inherit;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.c19 {
+  font-size: calc(1.6rem + 0.2rem);
+  line-height: 1.5;
+}
+
+.c19 p {
+  margin: 2.4rem 0;
+}
+
+.c19 a,
+.c19 a:visited,
+.c19 a:link {
+  color: #dc143c;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.c19 a:hover {
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
+}
+
+.c19 code {
+  font-family: monospace;
+  color: #dc143c;
+  font-size: 1.6rem;
+  background: #DDDDDD;
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.c19 pre {
+  background: #000;
+  padding: 2.4rem;
+  font-family: monospace;
+  color: #FFFFFF;
+  margin: 2.4rem 0;
+  width: 100%;
+  overflow-x: auto;
+  font-size: 1.6rem;
+}
+
+.c19 pre code {
+  color: inherit;
+  background: inherit;
+}
+
+.c19 img {
+  max-width: 100%;
+}
+
+.c19 .image {
+  background: #DDDDDD;
+  line-height: 0;
+  margin: 2.4rem 0;
+}
+
+.c19 .image figcaption {
+  font-size: 1.6rem;
+  padding: 1.6rem;
+  text-align: center;
+  line-height: 1.3;
+}
+
+.c19 .image-style-side {
+  max-width: 50%;
+  float: right;
+  margin: 2.4rem 0;
+}
+
+.c19 hr {
+  border: none;
+  border-bottom: 0.1rem solid #DDDDDD;
+}
+
+.c19 ul,
+.c19 ol {
+  margin: 2.4rem 4.0rem;
+}
+
+.c19 .table {
+  width: 100%;
+  overflow: hidden;
+  overflow-x: auto;
+}
+
+.c19 table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2.4rem 0;
+}
+
+.c19 table td,
+.c19 table th {
+  padding: 1.6rem;
+  border: 0.1rem solid #DDDDDD;
+}
+
+.c19 blockquote {
+  border-left: 0.5rem solid #dc143c;
+  color: #AAAAAA;
+  -webkit-filter: brightness(80%);
+  filter: brightness(80%);
+  padding-left: 2.4rem;
+  font-style: italic;
+  margin: 2.4rem;
+}
+
+.c20 {
+  position: fixed;
+  background: #000;
+  color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 6;
+}
+
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.c7 > img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.c10 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 6.4rem;
+  width: 100%;
+  max-width: 96rem;
+  color: #333;
+  font-size: 1.6rem;
+  margin: 0 auto;
+}
+
+.c10 .c5 {
+  margin: 0 0 calc(1.6rem - 1rem);
+}
+
+.c11 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  -ms-flex-flow: column wrap;
+  flex-flow: column wrap;
+  margin-left: 3.2rem;
+  max-width: 48rem;
+}
+
+.c8 {
+  display: block;
+  color: #FFFFFF;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+  border-right: 0.5rem solid #000;
+  -webkit-transition: all 500ms ease-in-out;
+  transition: all 500ms ease-in-out;
+}
+
+.c8:hover {
+  border-right: 0.5rem solid #dc143c;
+  color: #dc143c;
+}
+
+.c2 {
+  background: #000;
+  padding: 3.2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  max-width: 32rem;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  overflow-y: auto;
+  left: -30rem;
+  overflow-y: hidden;
+}
+
+.c3 {
+  margin: auto;
+  width: 100%;
+}
+
+.c4 .c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: 0;
+  margin-bottom: 4.0rem;
+}
+
+.c4 .c5 img {
+  border: 0.5rem solid #dc143c;
+}
+
+.c0 {
+  position: fixed;
+  top: 2.4rem;
+  color: #FFFFFF;
+  background: #000;
+  z-index: 2;
+  width: 3rem;
+  height: 3rem;
+  left: 26rem;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+  left: 1rem;
+  color: #FFFFFF;
+}
+
+.c9 {
+  margin-top: 6.4rem;
+  background: #FFFFFF;
+}
+
+.c13 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 6.4rem;
+}
+
+.c17 {
+  max-width: 120rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
+@media (max-width:360px) {
+  .c16 {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width:768px) {
+  .c19 {
+    font-size: 2rem;
+  }
+
+  .c19 .image-style-side {
+    max-width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c2 {
+    left: -32rem;
+  }
+}
+
+@media (max-width:768px) {
+  .c0 {
+    left: -.5rem;
+  }
+}
+
+<div>
+  <div
+    class=""
+  >
+    <a
+      aria-label="Open or close menu"
+      class="c0"
+      href="#"
+      title="Open or close menu"
+    >
+      <svg
+        aria-hidden="true"
+        aria-label="Open menu"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+        />
+      </svg>
+    </a>
+    <div
+      aria-hidden="true"
+      class="c2"
+    >
+      <nav
+        class="c3"
+      >
+        <div
+          class="c4"
+        >
+          <h1
+            class="c5 c6"
+          >
+            <a
+              href="/"
+            >
+              <a
+                class="c7"
+                target="_self"
+              >
+                <img
+                  alt="Samuel Carvalho"
+                  src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672354764/kisspng_logo_phoenix_art_5afffc96c60439_6819225615267257828111_ec42539444.png"
+                />
+              </a>
+            </a>
+          </h1>
+        </div>
+        <a
+          href="/home/1"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            My Jobs
+          </a>
+        </a>
+        <a
+          href="/home/2"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            About Me
+          </a>
+        </a>
+        <a
+          href="/home/3"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Services
+          </a>
+        </a>
+        <a
+          href="/home/4"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            External Link
+          </a>
+        </a>
+        <a
+          href="/home/5"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            JavaScript
+          </a>
+        </a>
+        <a
+          href="/home/6"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Ruby
+          </a>
+        </a>
+        <a
+          href="/home/7"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            .Net
+          </a>
+        </a>
+        <a
+          href="/home/8"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Assassins Creed
+          </a>
+        </a>
+        <a
+          href="/home/9"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Ark: Survival Evovlved
+          </a>
+        </a>
+        <a
+          href="/home/10"
+        >
+          <a
+            class="c8"
+            target="_self"
+          >
+            Code
+          </a>
+        </a>
+      </nav>
+    </div>
+    <header
+      class="c9"
+    >
+      <header
+        class="c10"
+      >
+        <h1
+          class="c5 c6"
+        >
+          <a
+            href="/"
+          >
+            <a
+              class="c7"
+              target="_self"
+            >
+              <img
+                alt="Samuel Carvalho - A descrição do blog"
+                src="https://res.cloudinary.com/dw08nx3ad/image/upload/v1672354764/kisspng_logo_phoenix_art_5afffc96c60439_6819225615267257828111_ec42539444.png"
+              />
+            </a>
+          </a>
+        </h1>
+        <div
+          class="c11"
+        >
+          <h2
+            class="c5 c12"
+          >
+            Samuel Carvalho
+          </h2>
+          <p>
+            A descrição do blog
+          </p>
+        </div>
+      </header>
+    </header>
+    <div
+      class="c13"
+    >
+      <div
+        class="c14"
+      >
+        <p
+          class="c15"
+        >
+          Nenhum post encontrado =( 
+        </p>
+        <div
+          class="c16"
+        />
+      </div>
+    </div>
+    <footer
+      class="c17"
+    >
+      <footer
+        class="c18"
+      >
+        <div
+          class="c19"
+        >
+          <p>
+            Desenvolvido por Samuel Carvalho
+          </p>
+        </div>
+      </footer>
+    </footer>
+    <a
+      aria-label="Go to top"
+      class="c20"
+      href="#"
+      title="Go to top"
+    >
+      <svg
+        aria-hidden="true"
+        class="c1"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7.41 15.41 12 10.83l4.59 4.58L18 14l-6-6-6 6 1.41 1.41z"
+        />
+      </svg>
+    </a>
+  </div>
+</div>
+`;

@@ -5,7 +5,9 @@ const data = [
     slug: 'how-to-upgrade-to-react-18',
     excerpt:
       'As we shared in the release post, React 18 introduces features powered by our new concurrent renderer, with a gradual adoption strategy for existing applications. In this post, we will guide you through the steps for upgrading to React 18.',
+    content: '',
     allowComments: true,
+    tags: [],
     author: {
       id: '1',
       displayName: 'Samuel Carvalho',
@@ -31,7 +33,9 @@ const data = [
     slug: 'python-para-quem-esta-comecando',
     excerpt:
       'Python é uma linguagem de programação de alto nível e de uso geral. Sua filosofia de design enfatiza a legibilidade do código com o uso de recuo significativo. Python é tipado dinamicamente e coletado como lixo.',
+    content: '',
     allowComments: true,
+    tags: [],
     author: {
       id: '3',
       displayName: 'José Santos',
@@ -57,7 +61,9 @@ const data = [
     slug: '25-anos-de-java-script',
     excerpt:
       'JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.',
+    content: '',
     allowComments: true,
+    tags: [],
     author: {
       id: '2',
       displayName: 'João Silva',
@@ -83,7 +89,9 @@ const data = [
     slug: 'tutorial-do-react-uma-visao-geral-e-passo-a-passo',
     excerpt:
       'Tenho ouvido falar sobre React desde que comecei a aprender JavaScript, mas admito que dei uma olhada e me assustei. Qual é o problema com o React?',
+    content: '',
     allowComments: true,
+    tags: [],
     author: {
       id: '1',
       displayName: 'Samuel Carvalho',
@@ -110,7 +118,9 @@ const data = [
     title: 'Vis nobis veritus maluisset id, nonumy adversarium',
     excerpt:
       'Fugit aliquip erroribus eu eam, an mel vidit doctus. Vis nobis veritus maluisset id, nonumy adversarium neglegentur est ut. Tation persius pri eu, modo minim fastidii mei no. Ad tota pertinax definiebas eam.',
+    content: '',
     allowComments: true,
+    tags: [],
     cover: {
       id: '603e59da85540677309fd518',
       alternativeText: '',
@@ -140,7 +150,9 @@ const data = [
     title: 'Sea Array Destructuring dicat fabulas consetetur ',
     excerpt:
       'Quod oblique mei ne, cetero delicatissimi sea cu, cu est harum dicit verterem. Tota forensibus ut usu, luptatum dignissim persecuti vel ex. Mea nostrud instructior cu, et referrentur theophrastus eum. Pro in iuvaret senserit.',
+    content: '',
     allowComments: true,
+    tags: [],
     cover: {
       id: '603e5a2785540677309fd51b',
       alternativeText: '',
@@ -165,7 +177,9 @@ const data = [
     title: 'Quod oblique mei ne, cetero delicatissimi sea',
     excerpt:
       'Et sed legere rationibus, vitae evertitur ad eam. Eu amet vero officiis vis. Ad nullam pericula neglegentur sit, vix ei regione legendos argumentum. Mei an quas convenire, nobis dicunt mei ut. ',
+    content: '',
     allowComments: true,
+    tags: [],
     cover: {
       id: '603e5a2785540677309fd51b',
       alternativeText: '',
