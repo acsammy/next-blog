@@ -1,16 +1,14 @@
-import {
-  Menu as MenuIcon,
-  Close as CloseIcon,
-} from '@styled-icons/material-outlined';
-import { LogoLink } from 'components/LogoLink';
-import { MenuLink } from 'components/MenuLink';
+import { Menu as MenuIcon } from '@styled-icons/material-outlined/Menu';
+import { Close as CloseIcon } from '@styled-icons/material-outlined/Close';
 import React, { useState } from 'react';
+import { LogoLink } from '../LogoLink';
+import { MenuLink } from '../MenuLink';
 import { Logo, Nav, OpenClose, Wrapper } from './styles';
 
 export type MenuPropsLinks = {
   id: string;
   link: string;
-  newTab: boolean;
+  newTab?: boolean;
   text: string;
 };
 
@@ -37,17 +35,16 @@ export const Menu = ({ links = [], blogName, logo }: MenuProps) => {
         title="Open or close menu"
         onClick={handleOpenCloseMenu}
       >
-        {menuVisible ? (
-          <CloseIcon aria-label="Close menu" />
-        ) : (
-          <MenuIcon aria-label="Open menu" />
-        )}
+        {menuVisible && <CloseIcon aria-label="Close menu" />}
+        {!menuVisible && <MenuIcon aria-label="Open menu" />}
       </OpenClose>
+
       <Wrapper menuVisible={menuVisible} aria-hidden={!menuVisible}>
         <Nav>
           <Logo>
             <LogoLink link="/" text={blogName} srcImg={logo} />
           </Logo>
+
           {links.map((link) => (
             <MenuLink key={link.id} link={link.link} newTab={link.newTab}>
               {link.text}

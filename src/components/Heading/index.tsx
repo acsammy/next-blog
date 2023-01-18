@@ -1,5 +1,4 @@
-import React from 'react';
-import * as Styled from './styles';
+import { Title } from './styles';
 
 export type HeadingProps = {
   children: React.ReactNode;
@@ -17,13 +16,8 @@ export const Heading = ({
   uppercase = false,
 }: HeadingProps) => {
   return (
-    <Styled.Title
-      colorDark={colorDark}
-      as={as}
-      size={size}
-      uppercase={uppercase}
-    >
+    <Title colorDark={colorDark} as={as} size={size} uppercase={uppercase}>
       {children}
-    </Styled.Title>
+    </Title>
   );
 };

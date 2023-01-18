@@ -7,6 +7,13 @@ exports[`<Menu /> > should match snapshot 1`] = `
   overflow: hidden;
 }
 
+.c6 {
+  color: #000;
+  line-height: 1.2;
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
+
 .c7 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -25,13 +32,7 @@ exports[`<Menu /> > should match snapshot 1`] = `
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-}
-
-.c6 {
-  color: #000;
-  line-height: 1.2;
-  font-size: 2.4rem;
-  text-transform: uppercase;
+  background-color: #FFFFFF;
 }
 
 .c8 {

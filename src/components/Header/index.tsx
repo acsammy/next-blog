@@ -1,9 +1,8 @@
-import React from 'react';
-import { Heading } from 'components/Heading';
-import { LogoLink } from 'components/LogoLink';
+import { Heading } from '../Heading';
+import { LogoLink } from '../LogoLink';
 import { Content, Wrapper } from './styles';
 
-export type HeaderPrpos = {
+export type HeaderProps = {
   blogName: string;
   blogDescription: string;
   logo: string;
@@ -15,7 +14,7 @@ export const Header = ({
   blogDescription,
   logo,
   showText = true,
-}: HeaderPrpos) => {
+}: HeaderProps) => {
   return (
     <Wrapper>
       <LogoLink

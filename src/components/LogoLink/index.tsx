@@ -1,7 +1,6 @@
-import React from 'react';
-import * as Styled from './styles';
 import { Heading } from '../Heading';
 import Link from 'next/link';
+import { Container } from './styles';
 
 export type LogoLinkProps = {
   text: string;
@@ -23,10 +22,10 @@ export const LogoLink = ({
     return (
       <Heading size="small" uppercase>
         <Link href={link} passHref>
-          <Styled.Container target={target}>
+          <Container target={target}>
             {!!srcImg && <img src={srcImg} alt={text} />}
             {!srcImg && text}
-          </Styled.Container>
+          </Container>
         </Link>
       </Heading>
     );
@@ -34,10 +33,10 @@ export const LogoLink = ({
 
   return (
     <Heading size="small" uppercase>
-      <Styled.Container href={link} target={target}>
+      <Container href={link} target={target}>
         {!!srcImg && <img src={srcImg} alt={text} />}
         {!srcImg && text}
-      </Styled.Container>
+      </Container>
     </Heading>
   );
 };

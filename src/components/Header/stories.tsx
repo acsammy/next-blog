@@ -1,5 +1,5 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
-import { Header, HeaderPrpos } from '.';
+import { Header, HeaderProps } from '.';
 import mock from './mock';
 
 export default {
@@ -8,7 +8,7 @@ export default {
   args: mock,
 } as Meta;
 
-export const Template: Story<HeaderPrpos> = (args) => {
+export const Template: Story<HeaderProps> = (args) => {
   return (
     <div>
       <Header {...args} />

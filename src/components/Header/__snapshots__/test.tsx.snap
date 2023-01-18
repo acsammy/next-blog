@@ -33,6 +33,7 @@ exports[`<Header /> > should match snapshot 1`] = `
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
+  background-color: #FFFFFF;
 }
 
 .c0 {
